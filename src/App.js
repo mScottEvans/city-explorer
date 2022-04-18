@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+const apiKey = process.env.REACT_APP_LOCATIONIQ_API_KEY;
+
 function App() {
   return (
     <div className="App">
