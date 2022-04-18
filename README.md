@@ -7,7 +7,7 @@
 
 ## Start time: _3:40 P.M.___
 
-## Finish time: _____
+## Finish time: __2:00___
 
 ## Actual time needed to complete: _____
 
