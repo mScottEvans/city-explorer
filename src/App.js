@@ -75,6 +75,7 @@ class App extends React.Component {
           <Card.Img style={{width: '50%'}} src={this.state.mapUrl}/>
         </Card>
         
+        
       </>
     )
   }
