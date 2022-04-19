@@ -29,7 +29,7 @@ class App extends React.Component {
     e.preventDefault();
 
     try {
-      let url = `https://us1.locationiq.com/v1/search.php?key=${process.env.REACT_APP_LOCATIONIQ_API_KEY}&q=${this.state.city}&format=json`;
+      let url = `https://us1.locationiq.com/v1/search.php?key=${process.env.REACT_APP_LOCATIONIQ_PI_KEY}&q=${this.state.city}&format=json`;
   
       let cityData = await axios.get(url);
       
@@ -74,7 +74,9 @@ class App extends React.Component {
           <Card.Text>Longitude: {this.state.cityData.lon}</Card.Text>
           <Card.Img style={{width: '50%'}} src={this.state.mapUrl}/>
         </Card>
-        
+        {
+          this.state.error ? <p style={{textAlign: 'center'}}>{this.state.errorMsg}</p> : <p style={{textAlign: 'center'}}></p>
+        }
         
       </>
     )
