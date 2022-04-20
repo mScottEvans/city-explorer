@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Card from 'react-bootstrap/Card'
-import CardImg from 'react-bootstrap/CardImg'
+// import CardImg from 'react-bootstrap/CardImg'
 
 
 
