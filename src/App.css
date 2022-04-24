@@ -36,6 +36,6 @@
     transform: rotate(360deg);
   }
 }
-form {
-  width: 100%;
+.data {
+  background-color: rgb(78, 173, 165);
 }

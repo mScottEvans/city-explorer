@@ -1,0 +1,53 @@
+.header {
+  background-color: rgb(78, 78, 78);
+  color: white;
+}
+
+.data {
+  border: 3px solid black;
+  display: grid;
+  grid-template-columns: 0.8fr 1fr [col1] 1.1fr 1.3fr;
+  /* justify-content: left; */
+}
+.form {
+  /* border: 3px solid rgb(255, 2, 2); */
+  /* display: flex; */
+  /* justify-content: center; */
+
+}
+.cityData {
+  /* border: 3px solid rgb(2, 5, 189); */
+  width: 75%;
+}
+.mapImg {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.weather {
+  /* border: 3px solid rgb(189, 2, 2); */
+  display: flex;
+  text-align: center;
+}
+.weatherJs {
+  /* border: 3px solid lime; */
+  left: 25%;
+}
+.row {
+  border: 3px solid rgb(44, 44, 44);
+  background-color: rgb(78, 173, 165);
+
+
+}
+.container {
+  display: flex;
+}
+.error {
+  background-color: rgb(78, 173, 165);
+}
+
+
+
+
+
+
