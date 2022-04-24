@@ -3,8 +3,11 @@ import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/Card'
 
+
 import Weather from './Weather.js';
 import Movie from './Movie.js';
+// import { toBePartiallyChecked } from '@testing-library/jest-dom/dist/matchers';
+// import "./Weather.css";
 
 
 // *******CONSTRUCTOR**********
@@ -104,36 +107,47 @@ class App extends React.Component {
 
     return (
       <>
-        <Card>
-        <h1>
-          Data for each city
-        </h1>
+      
+
+        <div class="header">
+      
+        <div class="data">
+          
+        <div class="form">
+        <h1>Find your City</h1>
         <form onSubmit={this.handleCitySubmit}>
           <label>
-            Enter a city:
+            
             <input type='text' name='city' onInput={this.handleCityInput} />
           </label>
           <button type='submit'>Explore</button>
         </form>
-
-        </Card>
-
-
-        <Weather weatherData={this.state.weatherData} />
-        <Movie movieData={this.state.movieData} />
-
-        <Card>
-          <Card.Title>City: {this.state.cityData.display_name}</Card.Title>
-          <Card.Text>Latitude: {this.state.cityData.lat}</Card.Text>
-          <Card.Text>Longitude: {this.state.cityData.lon}</Card.Text>
-          {/* <Card.Text>Weather Data: {this.state.weatherData}</Card.Text> */}
-          <Card.Img style={{ width: '200px' }} src={this.state.mapUrl} />
-        </Card>
-
+        </div>
         
+        <div class="cityData">
+          <div>City: {this.state.cityData.display_name}</div>
+          <div>Latitude: {this.state.cityData.lat}</div>
+          <div>Longitude: {this.state.cityData.lon}</div>
+          <img class="mapImg" src={this.state.mapUrl} />
+        </div>
+        </div>
+        <div class="weather">
+        <Weather weatherData={this.state.weatherData} />
+        </div>
+
+        </div>
+        <div class="movie">
+        <Movie movieData={this.state.movieData} />
+        </div>
+
+        <div class="error">
         {
           this.state.error ? <p style={{ textAlign: 'center' }}>{this.state.errorMsg}</p> : <p style={{ textAlign: 'center' }}>All is well!</p>
         }
+
+        </div>
+
+      
       </>
 
     );
