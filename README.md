@@ -1,58 +1,27 @@
 # By: Scott Evans
 
-## Number and name of feature: Lab06- Asynchronous code, and APIs
+# city-explorer
 
+# By: Scott Evans
+<!-- *******Lab-06***** -->
 
-## Estimate of time needed to complete: __2hrs___
-
-## Start time: _3:40 P.M.___
-
-## Finish time: __9:34P.M___
-
-## Actual time needed to complete: __6hrs___
-
-
-<!-- ********************** -->
-# City Explorer
-
-
-**Author**: Micheal Scott Evans
-**Version**: v14.19.1
- (increment the patch/fix version number if you make more commits past your first submission)
- <!-- ***************************** -->
-
-## Number and name of feature: Lab07- Custom Servers with Node and Express
-
-
-## Estimate of time needed to complete: __4hrs___
-
-## Start time: _5:23 P.M.___
-
-## Finish time: __8:40p.m.___
-
-## Actual time needed to complete: __4hrs___
-
- 
-  
 ## Number and name of feature: Lab08- APIs
-
-
 ## Estimate of time needed to complete: __4hrs___
-
 ## Start time: _8:30 P.M.___
-
 ## Finish time: __8:40p.m.___
-
 ## Actual time needed to complete: __4hrs___
 
+## Number and name of feature: Lab10
+## Estimate of time needed to complete: __5hr___
+## Start time: _1:30 P.M.___
+## Finish time: __8:40p.m.___
+## Actual time needed to complete: __7hrs___
 
+<!-- **********Flow Charts************ -->
+Data flow: ![Dataflow Chart](/src/imgs/FlowChart8.jpg)
 
-<!-- **********Flow Chart************ -->
-Data flow: ![Dataflow Chart](/src/imgs/FlowChart.jpg)
+Data flow: ![Dataflow Chart](/src/imgs/FlowChart10.png)
 
-Data flow: ![Dataflow Chart](/src/imgs/FlowChartLab08.jpg)
-
-Data flow: ![Dataflow Chart](/src/imgs/FlowChartLab10.png)
 ## Overview
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) →
 We are building an app to help people locate where a city is located. This will help break down the Lon and Lat of the location.

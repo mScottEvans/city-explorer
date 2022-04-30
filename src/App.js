@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Card from 'react-bootstrap/Card'
+// import Card from 'react-bootstrap/Card'
 
 
 import Weather from './Weather.js';
